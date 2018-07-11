@@ -1,0 +1,15 @@
+{	
+	"project": [
+		{
+			"name": "Cast Off",
+			"heroku": "https://warm-reef-75717.herokuapp.com/",
+			"github": "https://github.com/Flakkus35/finalproject",
+			"screenshot": ""
+		},
+		{
+			"name": "Big Fish Small Fish",
+			"github": "https://github.com/UNCBootCampProject1/BigFishSmallFishGame",
+			"screenshot": ""
+		}
+	]
+}
