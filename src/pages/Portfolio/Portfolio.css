@@ -1,0 +1,10 @@
+.port-wrap {
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 87%;
+}
+
+.title {
+	border-bottom: 3px solid black;
+	font-family: 'Playfair Display', serif;
+}

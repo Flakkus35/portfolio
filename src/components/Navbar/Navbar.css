@@ -1,4 +1,11 @@
 .navPort {
 	padding: 0;
 	height: 5rem;
+	border-bottom: 1px solid #d0d0d0;
+}
+
+.title-name {
+	font-size: 30px;
+	font-family: 'Playfair Display', serif;
+	padding-left: 2%;
 }

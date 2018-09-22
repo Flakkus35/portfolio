@@ -1,0 +1,18 @@
+.contact-link:hover {
+	text-decoration: none;
+}
+
+.cont-border {
+	height: 7rem;
+	color: black;
+	border: 1px solid black;
+	margin: 10px;
+	padding: 10px;
+	background: white;
+}
+
+.cont-border:hover {
+	/*color: blue;*/
+	text-decoration: underline;
+	background: linear-gradient(to bottom, white, #d0d0d0);
+}

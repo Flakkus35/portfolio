@@ -1,24 +1,40 @@
-import React from 'react';
+import React, { Component } from 'react';
 import "./PortBlock.css";
 import ghLogo from "../../images/Github.png";
 import herLogo from "../../images/heroku.png";
 import { Row, Col } from "../Grid";
 
-const PortBlock = props => 
-	<div className="pBlock">
-		<Row>
-			<Col size="md-9">
-				<h2>{props.name}</h2>
-				{props.heroku 
-					? <p><img className="siteLogo" src={herLogo} alt="heroku"/> Heroku: {props.heroku}</p>
-					: <div/>
-				}
-				<p><img className="siteLogo" src={ghLogo} alt="github"/> Github: {props.github}</p>
-			</Col>
-			<Col size="md-3">
-				<img src="https://raw.githubusercontent.com/Flakkus35/finalproject/master/client/src/util/images/castoff-2.png" alt={props.name}/>
-			</Col>
-		</Row>
-	</div>
+class PortBlock extends Component {
+
+	render() {
+		return (
+			<div className="pBlock animated bounceInDown faster">
+				<Row>
+					<Col size="md-8">
+						<h2>{this.props.name}</h2>
+						<p>{this.props.desc}</p>
+					</Col>
+					<Col size="md-4">
+						<img src={this.props.screenshot} width="100%" alt={this.props.name}/>
+					</Col>
+				</Row>
+				<div>
+					<div className="card card-body">
+						<h6 className="card-title">Explore below</h6>
+						<Row>
+							{this.props.heroku 
+								? <Col size="md-3" name="proj-link"><a className="site-link" href={this.props.heroku}><img className="siteLogo" src={herLogo} alt="heroku"/>Heroku</a></Col>
+								: <div/>
+							}
+							<Col size="md-3" name="proj-link">
+								<a className="site-link" href={this.props.github}><img className="siteLogo" src={ghLogo} alt="github"/>Github</a>
+							</Col>
+						</Row>
+					</div>
+				</div>
+			</div>
+		)
+	}
+}
 
 export default PortBlock;

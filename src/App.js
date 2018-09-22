@@ -15,15 +15,14 @@ class App extends Component {
       	<div>
       		<Navbar />
       		<Row>
-      			<Col size="md-2">
-		      		<Sidebar />
-		      	</Col>
-		      	<Col size="md-9">
+            <Col size="md-2" name="block-l"/>
+		      	<Col size="md-8">
 		      		<Route exact path={"/"} component={() => <About/>} />
 		      		<Route exact path={"/about"} component={() => <About/>} />
 		      		<Route exact path={"/contact"} component={() => <Contact/>} />
 		      		<Route exact path={"/portfolio"} component={() => <Portfolio/>} />
 		      	</Col>
+            <Col size="md-2" name="block-r"/>
       		</Row>
       	</div>
       </Router>

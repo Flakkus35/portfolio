@@ -4,12 +4,34 @@
 			"name": "Cast Off",
 			"heroku": "https://warm-reef-75717.herokuapp.com/",
 			"github": "https://github.com/Flakkus35/finalproject",
-			"screenshot": ""
+			"screenshot": "https://raw.githubusercontent.com/Flakkus35/portfolio/master/src/images/castoff.png",
+			"description": "Cast Off is a one-stop gateway to your favorite sites, fully-customizable to what you are looking for! You can save up to 8 links(waypoints) to sites in however many groupings (plans) as you wish. Once you are set just click the plan you wish to see then click on the waypoint you wish to go to. To get started login with your account or sign up as a new user. Cast Off requires cookies to be enabled so make sure you leave/turn them on."
 		},
 		{
 			"name": "Big Fish Small Fish",
 			"github": "https://github.com/UNCBootCampProject1/BigFishSmallFishGame",
-			"screenshot": ""
+			"screenshot": "https://raw.githubusercontent.com/Flakkus35/portfolio/master/src/images/fish.png",
+			"description": "Challenge your friends in this online multiplayer game to be the top fish of the world! Hosted on Firebase compete in real-time with online players to become the greatest fish in the world. Uses the Google Maps API and generates fish over time to further grow your avatar. To start, create your fish and select a location to get started."
+		},
+		{
+			"name": "Hot Restaurant",
+			"github": "https://github.com/restaurantUNC/hot_restaurant",
+			"heroku": "https://sheltered-crag-31533.herokuapp.com/",
+			"screenshot": "https://i.imgur.com/HYyGClT.png",
+			"description": "Description: Basic app demonstrating Node and Express with jQuery. Our app is made up of two parts: A front-end set of HTML/CSS/JS pages for entering and viewing data and a back-end composed of Node/Express and basic JS for storing, updating, and relaying reservation data. Our Restaurant has just 5 tables available since it's amazingly popular. First five requests get a reservation, every request after that is sent to the waiting list."
+		},
+		{
+			"name": "New York Times React",
+			"github": "https://github.com/Flakkus35/nytreact",
+			"heroku": "https://mongo-scrap.herokuapp.com/",
+			"screenshot": "https://i.imgur.com/OnkaGQw.jpg",
+			"description": "A Mongo-based scraping tool to see the latest news articles from the New York Times. Save the articles that you are interested in and check daily for new articles to peruse."
+		},
+		{
+			"name": "Bamazon Node App",
+			"github": "https://github.com/Flakkus35/Bamazon",
+			"screenshot": "https://i.imgur.com/2kPJUNI.png",
+			"description": "A node CLI app that allows user to order and manage stock in a virtual store. To run the customer oriented version type node bamazonCustomer.js into git bash/terminal. To run the manager oriented version type node bamazonManager.js into git bash/terminal."
 		}
 	]
 }

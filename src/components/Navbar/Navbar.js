@@ -7,7 +7,7 @@ class Navbar extends Component {
 		return (
 			<div>
 				<nav className="navPort navbar navbar-light bg-light">
-				  <Link className="navbar-brand" to="/">Devon Wood</Link>
+				  <Link className="navbar-brand title-name" to="/">Devon Wood</Link>
 				</nav>
 			</div>
 		);
