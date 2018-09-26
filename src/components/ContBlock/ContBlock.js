@@ -3,7 +3,7 @@ import { Row, Col } from "../Grid";
 import "./ContBlock.css";
 
 const ContBlock = props =>
-	<a className="contact-link" href={props.link}>
+	<a className="contact-link" onClick={props.click} href={props.link ? props.link : "#"}>
 		<Row name="cont-border">
 			<Col size="md-3" name="col-auto mr-auto">
 				<h3>{props.title}</h3>

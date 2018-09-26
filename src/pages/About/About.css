@@ -2,3 +2,12 @@
 	float: left;
 	margin: 10px;
 }
+
+#about-div {
+	width: 75%;
+	margin: auto;
+	border-left: 4px solid black;
+	border-right: 4px solid black;
+	padding-left: 10px;
+	padding-right: 10px;
+}

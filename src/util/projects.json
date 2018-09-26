@@ -1,6 +1,13 @@
 {	
 	"project": [
 		{
+			"name": "Cast Off Lite (WIP)",
+			"heroku": "https://warm-taiga-60346.herokuapp.com/",
+			"github": "https://github.com/Flakkus35/CastOffLite",
+			"screenshot": "https://i.imgur.com/3kjl729.png",
+			"description": "Reimagined version of Cast Off utilizing a lighter framework with Firebase and React. Updated functionality and less load, this version is meant to be easier to view on mobile devices."
+		},
+		{
 			"name": "Cast Off",
 			"heroku": "https://warm-reef-75717.herokuapp.com/",
 			"github": "https://github.com/Flakkus35/finalproject",

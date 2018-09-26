@@ -8,6 +8,12 @@ import Linked from "../../images/linkedin.png";
 import Gmail from "../../images/gmail.png";
 
 class Contact extends Component {
+	state = {
+		showEmail: ""
+	}
+
+	renderEmail = () => this.setState({showEmail: "wooddv35@gmail.com"})
+
 	render() {
 		return (
 			<View>
@@ -20,7 +26,12 @@ class Contact extends Component {
 						<ContBlock title="LinkedIn" link="https://www.linkedin.com/in/devon-wood-398397144/" img={Linked} />
 					</Col>
 					<Col size="md-12 lg-6 xl-4" name="offset-lg-3 offset-xl-0">
-						<ContBlock title="Gmail" link="wooddv35@gmail.com" img={Gmail} />
+						<ContBlock title="Gmail" click={this.renderEmail} img={Gmail} />
+					</Col>
+				</Row>
+				<Row>
+					<Col size="md-4" name="offset-md-4">
+						<h2>{this.state.showEmail}</h2>
 					</Col>
 				</Row>
 			</View>
