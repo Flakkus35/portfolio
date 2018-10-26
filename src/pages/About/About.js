@@ -12,7 +12,7 @@ class About extends Component {
 					<div id="about-div">	
 						<img id="face" height="300" src={face} alt="Devon Wood"/>
 						<p>
-						Hello, my name is Devon Wood and I am full stack developer working primarily with Javascript, HTML, and CSS. I have spent most of my life surrounded by computers have enjoyed working with a multitude of different software in many fields. I taught myself several 3D modeling and graphic design software starting from when I was 17 learning programs like Autodesk Maya, Adobe Photoshop, and ZBrush to name a few. I have also worked with several game engines including Unity and the Unreal Engine to make a few small projects.
+						Hello, my name is Devon Wood and I am front end developer working primarily with Javascript, HTML, and CSS. I have spent most of my life surrounded by computers have enjoyed working with a multitude of different software in many fields. I taught myself several 3D modeling and graphic design software starting from when I was 17 learning programs like Autodesk Maya, Adobe Photoshop, and ZBrush to name a few. I have also worked with several game engines including Unity and the Unreal Engine to make a few small projects.
 						</p> 
 						<p>
 						For about 12 years of my life I played hockey as a goaltender moving from several states to keep advancing and improving. I grew up watching Patrick Roy and the Colorado Avalanche play which got me interested in playing goal. I ended up moving back home to Raleigh from Boston to attend college.

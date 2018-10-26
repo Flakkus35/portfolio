@@ -25,11 +25,11 @@
 			"github": "https://github.com/restaurantUNC/hot_restaurant",
 			"heroku": "https://sheltered-crag-31533.herokuapp.com/",
 			"screenshot": "https://i.imgur.com/HYyGClT.png",
-			"description": "Description: Basic app demonstrating Node and Express with jQuery. Our app is made up of two parts: A front-end set of HTML/CSS/JS pages for entering and viewing data and a back-end composed of Node/Express and basic JS for storing, updating, and relaying reservation data. Our Restaurant has just 5 tables available since it's amazingly popular. First five requests get a reservation, every request after that is sent to the waiting list."
+			"description": "Basic app demonstrating Node and Express with jQuery. Our app is made up of two parts: A front-end set of HTML/CSS/JS pages for entering and viewing data and a back-end composed of Node/Express and basic JS for storing, updating, and relaying reservation data. Our Restaurant has just 5 tables available since it's amazingly popular. First five requests get a reservation, every request after that is sent to the waiting list."
 		},
 		{
-			"name": "New York Times React",
-			"github": "https://github.com/Flakkus35/nytreact",
+			"name": "Mongo Scraper",
+			"github": "https://github.com/Flakkus35/MongoScraper",
 			"heroku": "https://mongo-scrap.herokuapp.com/",
 			"screenshot": "https://i.imgur.com/OnkaGQw.jpg",
 			"description": "A Mongo-based scraping tool to see the latest news articles from the New York Times. Save the articles that you are interested in and check daily for new articles to peruse."
