@@ -1,6 +1,11 @@
 {	
 	"project": [
 		{
+			"name": "NHL Stats (WIP)",
+			"github": "https://github.com/Flakkus35/nhlStats",
+			"description": "Compiled stats of NHL teams and players using React and the undocumented NHL/MLB api."
+		},
+		{
 			"name": "Cast Off Lite (WIP)",
 			"heroku": "https://warm-taiga-60346.herokuapp.com/",
 			"github": "https://github.com/Flakkus35/CastOffLite",
