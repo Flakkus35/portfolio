@@ -12,7 +12,25 @@ class Navigation extends Component {
   }
 
   changePage = (event) => {
-    console.log(event.target)
+    const { headers } = this.state;
+    const { history } = this.props;
+    const pan = event.target.getAttribute('value');
+
+    if (pan == 'pan-left') {
+      const last = headers.pop(0);
+      headers.unshift(last)
+      history.push(headers[1].toLowerCase());
+      this.setState({
+        headers: headers
+      })
+    } else {
+      const first = headers.shift(0);
+      headers.push(first);
+      history.push(headers[1].toLowerCase());
+      this.setState({
+        headers: headers
+      })
+    }
     // this.history.push(event.target.getAttribute('value'))
   }
 
@@ -37,13 +55,13 @@ class Navigation extends Component {
             {headers[0]}
           </div>
         </div>
-        <div onClick={this.changePage} className="navigation__left-arrow">
+        <div onClick={this.changePage} value="pan-left" className="navigation__left-arrow">
           &lt;
         </div>
         <div className="navigation__center">
           {headers[1]}
         </div>
-        <div onClick={this.changePage} className="navigation__right-arrow">
+        <div onClick={this.changePage} value="pan-right" className="navigation__right-arrow">
           &gt;
         </div>
         <div className="navigation__right">
@@ -54,6 +72,10 @@ class Navigation extends Component {
       </div>
     )
   }
+}
+
+Navigation.propTypes = {
+  history: PropTypes.object.isRequired // eslint-disable-line
 }
 
 export default withRouter(Navigation);
