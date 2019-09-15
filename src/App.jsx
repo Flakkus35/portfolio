@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import About from './containers/About';
 import Portfolio from './containers/Portfolio';
 import Contact from './containers/Contact';
 import Header from './containers/Header';
@@ -19,7 +20,8 @@ function App() {
         <div className="sub-container">
           <Header />
           <Navigation />
-          <Route exact path="/" component={() => <Portfolio />} />
+          <Route exact path="/" component={() => <About />} />
+          <Route exact path="/portfolio" component={() => <Portfolio />} />
           <Route exact path="/contact" component={() => <Contact />} />
         </div>
       </Router>

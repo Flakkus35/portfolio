@@ -1,0 +1,31 @@
+.navigation {
+  font-size: 30px;
+
+  &__left {
+    grid-column-start: 1;
+  }
+
+  &__left-arrow,
+  &__right-arrow,
+  &__center {
+    display: grid;
+    justify-content: center;
+  }
+
+  &__left-arrow {
+    grid-column-start: 2;
+  }
+
+  &__center {
+    grid-column-start: 3;
+  }
+
+  &__right-arrow {
+    grid-column-start: 4;
+  }
+
+  &__right {
+    grid-column-start: 5;
+    text-align: right;
+  }
+}
