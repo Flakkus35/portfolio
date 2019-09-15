@@ -1,0 +1,27 @@
+.contact {
+
+  &__container {
+    border: 1px solid $grey;
+    border-radius: 5px;
+    box-shadow: -1px -1px 1px #fff, 1px 2px 1px $grey;
+    color: $black;
+    display: grid;
+    grid-template-columns: 20% 20% auto;
+    margin-top: 10px;
+    padding: 5px;
+    text-decoration: none;
+  }
+
+  &__image {
+    grid-column-start: 1;
+  }
+
+  &__name {
+    align-items: center;
+    display: grid;
+    font: 40px 'Museo700';
+    font-weight: bold;
+    grid-column-start: 2;
+    text-shadow: -1px -1px 1px #fff, 1px 1px 1px $black;
+  }
+}

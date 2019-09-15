@@ -1,0 +1,39 @@
+.project {
+
+  &__container {
+    display: grid;
+    grid-template-columns: 70% 30%;
+  }
+
+  &__description {
+    grid-column-start: 1;
+  }
+
+  &__screenshot {
+    grid-column-start: 2;
+  }
+
+  &__title {
+    text-align: center;
+  }
+
+  &__link-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  &__link-github, &__link-heroku {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 20% 20% auto;
+    justify-content: center;
+  }
+
+  &__link-github {
+    grid-column-start: 1;
+  }
+
+  &__link-heroku {
+    grid-column-start: 2;
+  }
+}

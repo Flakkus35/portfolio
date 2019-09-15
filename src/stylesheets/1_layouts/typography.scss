@@ -1,0 +1,20 @@
+.main-container {
+  background-color: $white;
+  margin: 0 auto;
+  min-height: 600px;
+  width: 900px;
+}
+
+.sub-container {
+  padding: 10px;
+}
+
+.divide-container {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.half-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
