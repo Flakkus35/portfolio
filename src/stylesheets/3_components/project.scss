@@ -32,19 +32,19 @@
     grid-template-columns: 50% 50%;
   }
 
-  &__link-github, &__link-heroku {
-    align-items: center;
-    display: grid;
-    justify-content: center;
-  }
-
   &__link-github {
     background: $black;
-    color: $white;
   }
 
   &__link-heroku {
     background-color: $herokupurple;
+  }
+
+  &__link-github,
+  &__link-heroku {
+    align-items: center;
     color: $white;
+    display: grid;
+    justify-content: center;
   }
 }

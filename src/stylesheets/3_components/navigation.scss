@@ -3,7 +3,7 @@
 
   &__left {
     grid-column-start: 1;
-    opacity: .1;
+    opacity: 0.1;
   }
 
   &__left-arrow,
@@ -17,24 +17,25 @@
     grid-column-start: 2;
   }
 
-  &__left-arrow:hover, &__right-arrow:hover {
-    -webkit-text-fill-color: $darkblue;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: $white;
+  &__right-arrow {
+    grid-column-start: 4;
+  }
+
+  &__left-arrow:hover,
+  &__right-arrow:hover {
     cursor: pointer;
+    -webkit-text-fill-color: $darkblue;
+    -webkit-text-stroke-color: $white;
+    -webkit-text-stroke-width: 2px;
   }
 
   &__center {
     grid-column-start: 3;
   }
 
-  &__right-arrow {
-    grid-column-start: 4;
-  }
-
   &__right {
     grid-column-start: 5;
-    opacity: .1;
+    opacity: 0.1;
     text-align: right;
   }
 }

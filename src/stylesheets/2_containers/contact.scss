@@ -1,5 +1,4 @@
 .contact {
-
   &__container {
     border: 1px solid $grey;
     border-radius: 5px;
@@ -24,7 +23,8 @@
   &__name {
     align-items: center;
     display: grid;
-    font: 40px 'ArchivoBlack';
+    font-family: 'ArchivoBlack', sans-serif;
+    font-size: 40px;
     font-weight: bold;
     grid-column-start: 2;
     text-shadow: -1px -1px 1px $white, 1px 1px 1px $black;
