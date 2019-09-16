@@ -4,7 +4,7 @@ import Project from '../components/Project';
 
 function Portfolio() {
   return (
-    <div>
+    <div className="content-section">
       {project.map((proj) => (
         <Project project={proj} key={proj.name} />
       ))}

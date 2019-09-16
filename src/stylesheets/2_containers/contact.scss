@@ -4,12 +4,17 @@
     border: 1px solid $grey;
     border-radius: 5px;
     box-shadow: -1px -1px 1px $white, 1px 2px 1px $grey;
-    color: $paleblue;
+    color: $darkblue;
     display: grid;
     grid-template-columns: 20% 20% auto;
     margin-top: 10px;
     padding: 5px;
     text-decoration: none;
+  }
+
+  &__container:hover {
+    background-color: $darkblue;
+    color: $white;
   }
 
   &__image {
@@ -19,9 +24,9 @@
   &__name {
     align-items: center;
     display: grid;
-    font: 40px 'Museo700';
+    font: 40px 'ArchivoBlack';
     font-weight: bold;
     grid-column-start: 2;
-    text-shadow: -1px -1px 1px #fff, 1px 1px 1px $black;
+    text-shadow: -1px -1px 1px $white, 1px 1px 1px $black;
   }
 }

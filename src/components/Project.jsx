@@ -1,14 +1,19 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import herImg from '../images/heroku.png';
+import herImg from '../images/heroku.svg';
 
-function Project({ project: { name, description, github, heroku, screenshot } }) {
+function Project({ project: { name, description, github, heroku, screenshot, tech } }) {
   return (
-    <div className="content-section">
-      <h4 className="project__title">{name}</h4>
-      <div className="project__container">
+    <div className="project">
+      <h3 className="project__title">{name}</h3>
+      <div className="project__info-container">
         <div className="project__description">
           {description}
+        </div>
+        <div className="project__tech">
+          {tech.map((ele) => (
+            <li>{ele}</li>
+          ))}
         </div>
         {screenshot
           ? <div className="project__screenshot">
@@ -18,15 +23,13 @@ function Project({ project: { name, description, github, heroku, screenshot } })
         }
       </div>
       <div className="project__link-container">
-        <div className="project__link-github">
-          <FontAwesomeIcon size="2x" icon={["fab", "github"]} />
-          <a href={github}>Github</a>
-        </div>
+        <a href={github} className="project__link-github">
+          <FontAwesomeIcon size="3x" icon={["fab", "github"]} />
+        </a>
         {heroku
-          ? <div className="project__link-heroku">
-              <img src={herImg} alt="heroku" width="50" />
-              <a href={heroku}>Heroku</a>
-            </div>
+          ? <a href={heroku} className="project__link-heroku">
+              <img src={herImg} alt="heroku" width="40" />
+            </a>
           : null
         }
       </div>

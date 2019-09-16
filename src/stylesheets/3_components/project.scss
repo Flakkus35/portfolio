@@ -1,19 +1,29 @@
 .project {
+  box-shadow: 3px 3px 5px 6px $lightgrey;
+  margin-bottom: 5px;
 
-  &__container {
+  &__info-container {
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 50% 20% 30%;
   }
 
   &__description {
     grid-column-start: 1;
+    padding: 5px;
+  }
+
+  &__tech {
+    grid-column-start: 2;
+    padding: 5px;
   }
 
   &__screenshot {
-    grid-column-start: 2;
+    grid-column-start: 3;
   }
 
   &__title {
+    color: $darkblue;
+    font-family: 'ArchivoBlack', sans-serif;
     text-align: center;
   }
 
@@ -25,15 +35,16 @@
   &__link-github, &__link-heroku {
     align-items: center;
     display: grid;
-    grid-template-columns: 20% 20% auto;
     justify-content: center;
   }
 
   &__link-github {
-    grid-column-start: 1;
+    background: $black;
+    color: $white;
   }
 
   &__link-heroku {
-    grid-column-start: 2;
+    background-color: $herokupurple;
+    color: $white;
   }
 }

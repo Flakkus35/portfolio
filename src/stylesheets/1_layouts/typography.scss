@@ -1,15 +1,10 @@
 .main-container {
   background-color: $white;
   border: 8px solid $darkblue;
-  box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.2), inset 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 0 auto;
   min-height: 95vh;
   width: 900px;
 }
-
-// .sub-container {
-//   padding: 10px;
-// }
 
 .divide-container {
   display: grid;
@@ -22,17 +17,22 @@
 }
 
 .navigation-container {
-  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-fill-color: $white;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: $darkerblue;
   background-image: radial-gradient(transparent, $darkerblue);
   display: grid;
   font-family: 'ArchivoBlack', sans-serif;
   font-size: 30px;
-  grid-template-columns: 30% 15% 10% 15% 30%;
+  grid-template-columns: 20% 25% 10% 25% 20%;
   padding: 5px;
 }
 
 .content-section {
   padding: 10px;
+}
+
+.header-title {
+  color: $darkblue;
+  text-align: center;
 }
