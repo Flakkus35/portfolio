@@ -21,7 +21,7 @@ function About() {
         to help them better understand the world of coding.
       </p>
     </div>
-  )
+  );
 }
 
 export default About;

@@ -26,7 +26,7 @@ function Contact() {
         <ContLink info={link} key={link.name} />
       ))}
     </div>
-  )
+  );
 }
 
 export default Contact;

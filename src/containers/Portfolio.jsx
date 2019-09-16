@@ -9,7 +9,7 @@ function Portfolio() {
         <Project project={proj} key={proj.name} />
       ))}
     </div>
-  )
+  );
 }
 
 export default Portfolio;
