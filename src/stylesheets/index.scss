@@ -5,6 +5,7 @@
 @import './1_layouts/typography.scss';
 
 @import './2_containers/contact.scss';
+@import './2_containers/header.scss';
 
 @import './3_components/button.scss';
 @import './3_components/navigation.scss';
@@ -12,4 +13,5 @@
 
 body {
   background-image: url('../images/wallpaper.jpg');
+  font-family: 'Helvetica', sans-serif;
 }

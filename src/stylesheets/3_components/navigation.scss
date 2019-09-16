@@ -11,6 +11,9 @@
   &__center {
     display: grid;
     justify-content: center;
+    -webkit-text-fill-color: $darkerblue;
+    -webkit-text-stroke-color: $darkerblue;
+    -webkit-text-stroke-width: 2px;
   }
 
   &__left-arrow {
@@ -24,8 +27,8 @@
   &__left-arrow:hover,
   &__right-arrow:hover {
     cursor: pointer;
-    -webkit-text-fill-color: $darkblue;
-    -webkit-text-stroke-color: $white;
+    -webkit-text-fill-color: $white;
+    -webkit-text-stroke-color: $darkblue;
     -webkit-text-stroke-width: 2px;
   }
 
@@ -37,5 +40,12 @@
     grid-column-start: 5;
     opacity: 0.1;
     text-align: right;
+  }
+
+  &__left,
+  &__right {
+    -webkit-text-fill-color: $white;
+    -webkit-text-stroke-color: $darkerblue;
+    -webkit-text-stroke-width: 2px;
   }
 }
