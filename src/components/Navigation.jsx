@@ -5,10 +5,17 @@ import { withRouter } from 'react-router-dom';
 class Navigation extends Component {
   state = {
     headers: [
-      'Portfolio',
-      'About',
-      'Contact'
+      'PORTFOLIO',
+      'ABOUT',
+      'CONTACT'
     ]
+  }
+
+  componentWillMount() {
+    const { headers } = this.state;
+    const { history } = this.props;
+
+    history.push(headers[1].toLowerCase());
   }
 
   changePage = (event) => {
@@ -31,19 +38,7 @@ class Navigation extends Component {
         headers: headers
       })
     }
-    // this.history.push(event.target.getAttribute('value'))
   }
-
-  // const test =  (
-  //   <div className="half-container">
-  //     <div onClick={changePage} value="/" className="btn btn__portfolio">
-  //       Portfolio
-  //     </div>
-  //     <div onClick={changePage} value="/contact" className="btn btn__contact">
-  //       Contact
-  //     </div>
-  //   </div>
-  // )
 
   render() {
     const { headers } = this.state;

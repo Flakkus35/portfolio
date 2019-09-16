@@ -21,7 +21,7 @@ function Contact() {
   ];
 
   return (
-    <div>
+    <div className="content-section">
       {profileLinks.map((link) => (
         <ContLink info={link} key={link.name} />
       ))}

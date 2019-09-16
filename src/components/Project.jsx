@@ -4,7 +4,7 @@ import herImg from '../images/heroku.png';
 
 function Project({ project: { name, description, github, heroku, screenshot } }) {
   return (
-    <div>
+    <div className="content-section">
       <h4 className="project__title">{name}</h4>
       <div className="project__container">
         <div className="project__description">
