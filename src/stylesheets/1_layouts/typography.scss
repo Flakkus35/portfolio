@@ -17,15 +17,23 @@
 }
 
 .navigation-container {
-  background-image: radial-gradient(transparent, $darkerblue);
+  background-image: radial-gradient(transparent, $darkblue);
   display: grid;
   font-family: 'ArchivoBlack', sans-serif;
-  font-size: 30px;
+  font-size: 28px;
   grid-template-columns: 20% 25% 10% 25% 20%;
   padding: 5px;
 }
 
 .content-section {
+  margin: 0 auto;
+  padding: 10px;
+  width: 85%;
+}
+
+.about-section {
+  border: 5px outset;
+  border-radius: 5px;
   padding: 10px;
 }
 

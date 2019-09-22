@@ -30,7 +30,7 @@ function Project({
         </div>
         <div className="project__tech">
           {tech.map((ele) => (
-            <li key={ele}>{ele}</li>
+            <li className="project__tech-list" key={ele}>{ele}</li>
           ))}
         </div>
         {screenshot

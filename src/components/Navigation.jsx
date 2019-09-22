@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Navigation extends Component {
   constructor(props) {
@@ -26,6 +27,7 @@ class Navigation extends Component {
     const { headers } = this.state;
     const { history } = this.props;
     const pan = event.target.getAttribute('value');
+    console.log(event.target)
 
     if (pan === 'pan-left') {
       const last = headers.pop(0);
@@ -54,14 +56,18 @@ class Navigation extends Component {
             {headers[0]}
           </div>
         </div>
-        <div onClick={this.changePage} value="pan-left" className="navigation__left-arrow"> { /* eslint-disable-line */ }
-          &lt;
+        <div className="navigation__left-arrow">
+          <div onClick={this.changePage} value="pan-left" className="navigation__btn-container">
+            <FontAwesomeIcon pointerEvents="none" icon="caret-square-left" />
+          </div>
         </div>
         <div className="navigation__center">
           {headers[1]}
         </div>
-        <div onClick={this.changePage} value="pan-right" className="navigation__right-arrow"> { /* eslint-disable-line */ }
-          &gt;
+        <div className="navigation__right-arrow">
+          <div onClick={this.changePage} value="pan-right" className="navigation__btn-container">
+            <FontAwesomeIcon pointerEvents="none" icon="caret-square-right" />
+          </div>
         </div>
         <div className="navigation__right">
           <div>

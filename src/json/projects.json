@@ -1,7 +1,7 @@
 {
   "project": [
     {
-      "name": "Portfolio",
+      "name": "PORTFOLIO",
       "github": "https://github.com/Flakkus35/portfolio",
       "description": "Information about this website and link to the source code",
       "tech": [
@@ -12,7 +12,7 @@
       ]
     },
     {
-      "name": "NHL Stats (WIP)",
+      "name": "NHL STATS (WIP)",
       "github": "https://github.com/Flakkus35/nhlStats",
       "description": "Compiled stats of NHL teams and players using React and the undocumented NHL/MLB api.",
       "tech": [
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "name": "Cast Off Lite (WIP)",
+      "name": "CAST OFF LITE (WIP)",
       "heroku": "https://warm-taiga-60346.herokuapp.com/",
       "github": "https://github.com/Flakkus35/CastOffLite",
       "screenshot": "https://i.imgur.com/3kjl729.png",
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "name": "Cast Off",
+      "name": "CAST OFF",
       "heroku": "https://warm-reef-75717.herokuapp.com/",
       "github": "https://github.com/Flakkus35/finalproject",
       "screenshot": "https://raw.githubusercontent.com/Flakkus35/portfolio/master/src/images/castoff.png",
@@ -53,7 +53,7 @@
       ]
     },
     {
-      "name": "Big Fish Small Fish",
+      "name": "BIG FISH SMALL FISH",
       "github": "https://github.com/UNCBootCampProject1/BigFishSmallFishGame",
       "screenshot": "https://raw.githubusercontent.com/Flakkus35/portfolio/master/src/images/fish.png",
       "description": "Challenge your friends in this online multiplayer game to be the top fish of the world! Hosted on Firebase compete in real-time with online players to become the greatest fish in the world. Uses the Google Maps API and generates fish over time to further grow your avatar. To start, create your fish and select a location to get started.",
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "name": "Hot Restaurant",
+      "name": "HOT RESTAURANT",
       "github": "https://github.com/restaurantUNC/hot_restaurant",
       "heroku": "https://sheltered-crag-31533.herokuapp.com/",
       "screenshot": "https://i.imgur.com/HYyGClT.png",
@@ -81,7 +81,7 @@
       ]
     },
     {
-      "name": "Mongo Scraper",
+      "name": "MONGO SCRAPER",
       "github": "https://github.com/Flakkus35/MongoScraper",
       "heroku": "https://mongo-scrap.herokuapp.com/",
       "screenshot": "https://i.imgur.com/OnkaGQw.jpg",
@@ -93,16 +93,6 @@
         "Mongo",
         "Express",
         "NodeJS"
-      ]
-    },
-    {
-      "name": "Bamazon Node App",
-      "github": "https://github.com/Flakkus35/Bamazon",
-      "screenshot": "https://i.imgur.com/2kPJUNI.png",
-      "description": "A node CLI app that allows user to order and manage stock in a virtual store. To run the customer oriented version type node bamazonCustomer.js into git bash/terminal. To run the manager oriented version type node bamazonManager.js into git bash/terminal.",
-      "tech": [
-        "NodeJS",
-        "MySQL"
       ]
     }
   ]

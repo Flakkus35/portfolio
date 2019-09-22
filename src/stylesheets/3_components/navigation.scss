@@ -11,9 +11,6 @@
   &__center {
     display: grid;
     justify-content: center;
-    -webkit-text-fill-color: $darkerblue;
-    -webkit-text-stroke-color: $darkerblue;
-    -webkit-text-stroke-width: 2px;
   }
 
   &__left-arrow {
@@ -24,16 +21,11 @@
     grid-column-start: 4;
   }
 
-  &__left-arrow:hover,
-  &__right-arrow:hover {
-    cursor: pointer;
-    -webkit-text-fill-color: $white;
-    -webkit-text-stroke-color: $darkblue;
-    -webkit-text-stroke-width: 2px;
-  }
-
   &__center {
     grid-column-start: 3;
+    -webkit-text-fill-color: $darkblue;
+    -webkit-text-stroke-color: $darkblue;
+    -webkit-text-stroke-width: 2px;
   }
 
   &__right {
@@ -45,7 +37,16 @@
   &__left,
   &__right {
     -webkit-text-fill-color: $white;
-    -webkit-text-stroke-color: $darkerblue;
+    -webkit-text-stroke-color: $darkblue;
     -webkit-text-stroke-width: 2px;
+  }
+
+  &__btn-container {
+    color: $darkblue;
+  }
+
+  &__btn-container:hover {
+    color: $white;
+    cursor: pointer;
   }
 }

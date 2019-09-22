@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import {
-  faEnvelope
+  faCaretSquareLeft, faCaretSquareRight, faEnvelope
 } from '@fortawesome/free-solid-svg-icons';
 import { fab, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -11,7 +11,7 @@ import Contact from './containers/Contact';
 import Header from './containers/Header';
 import Navigation from './components/Navigation';
 
-library.add(fab, faLinkedin, faGithub, faEnvelope);
+library.add(fab, faLinkedin, faGithub, faCaretSquareLeft, faCaretSquareRight, faEnvelope);
 
 function App() {
   return (

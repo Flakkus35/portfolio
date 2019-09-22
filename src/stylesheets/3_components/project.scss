@@ -5,6 +5,7 @@
   &__info-container {
     display: grid;
     grid-template-columns: 50% 20% 30%;
+    margin-bottom: 5px;
   }
 
   &__description {
@@ -17,6 +18,10 @@
     padding: 5px;
   }
 
+  &__tech-list {
+    list-style-type: circle;
+  }
+
   &__screenshot {
     grid-column-start: 3;
   }
@@ -24,6 +29,7 @@
   &__title {
     color: $darkblue;
     font-family: 'ArchivoBlack', sans-serif;
+    padding-top: 5px;
     text-align: center;
   }
 
