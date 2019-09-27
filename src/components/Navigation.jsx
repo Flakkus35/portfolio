@@ -27,7 +27,6 @@ class Navigation extends Component {
     const { headers } = this.state;
     const { history } = this.props;
     const pan = event.target.getAttribute('value');
-    console.log(event.target)
 
     if (pan === 'pan-left') {
       const last = headers.pop(0);
@@ -57,6 +56,7 @@ class Navigation extends Component {
           </div>
         </div>
         <div className="navigation__left-arrow">
+          { /* eslint-disable-next-line */ }
           <div onClick={this.changePage} value="pan-left" className="navigation__btn-container">
             <FontAwesomeIcon pointerEvents="none" icon="caret-square-left" />
           </div>
@@ -65,6 +65,7 @@ class Navigation extends Component {
           {headers[1]}
         </div>
         <div className="navigation__right-arrow">
+          { /* eslint-disable-next-line */ }
           <div onClick={this.changePage} value="pan-right" className="navigation__btn-container">
             <FontAwesomeIcon pointerEvents="none" icon="caret-square-right" />
           </div>
