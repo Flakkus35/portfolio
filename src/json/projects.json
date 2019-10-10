@@ -12,15 +12,16 @@
       ]
     },
     {
-      "name": "NHL STATS (WIP)",
+      "name": "NHL STATS",
       "github": "https://github.com/Flakkus35/nhlStats",
-      "description": "Compiled stats of NHL teams and players using React and the undocumented NHL/MLB api.",
+      "heroku": "https://prohockeystats.herokuapp.com/",
+      "description": "Compiled stats of NHL teams and players using React/Redux and the undocumented NHL/MLB api.",
       "tech": [
         "HTML",
         "JS",
-        "CSS",
+        "SASS",
         "React",
-        "ReactN"
+        "Redux"
       ]
     },
     {
